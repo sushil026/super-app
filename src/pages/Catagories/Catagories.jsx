@@ -14,7 +14,7 @@ export default function Catagories() {
     { id: 6, title: 'Horror', image: require('../../assets/horror.jpg'), color: '#7358FF', selected: false},
     { id: 7, title: 'Fantasy', image: require('../../assets/fantasy.jpg'), color: '#FF4ADE', selected: false},
     { id: 8, title: 'Music', image: require('../../assets/music.jpg'), color: '#E61E32', selected: false},
-    { id: 9, title: 'Fiction', image: require('../../assets/fiction.jpg'), color: '#6CD061', selected: false}
+    { id: 9, title: 'Fiction', image: require('../../assets/fiction.jpg'), color: '#6CD061', selected: true}
   ];
   return (
     <div className={cat.app}>

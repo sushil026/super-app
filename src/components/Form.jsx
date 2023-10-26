@@ -10,9 +10,7 @@ export default function Form() {
     mail: "",
     mobile: "",
   };
-  // useEffect(()=>{
 
-  // },[]);
   const [formValues, setFormValues] = useState(initialValues);
   const [formErrors, setFormErrors] = useState({});
   const [isChecked, setCheck] = useState(false);
