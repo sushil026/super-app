@@ -1,0 +1,74 @@
+.app{
+   display: flex;
+   width: 100vw;
+   height: 100vh;
+   background-color: black;
+   overflow: hidden;
+   margin: 0;
+}
+.form{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   margin: 0;
+   width: 62%;
+   height: 100%;
+   color: aliceblue;
+}
+.half{
+   position: relative;
+   font: 2rem/3.5rem 'Roboto', sans-serif;
+   letter-spacing: 0.1rem;
+   margin: 0;
+   width: 48%;
+   height: 100%;
+   color: aliceblue;
+   background-image: url(../../assets/banner.png);
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+}
+.half h2{
+   position: absolute;
+   left: 2vw;
+   bottom: 7vh;
+}
+
+.inside{
+   height: 100%;
+   width: 48%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   color: #7C7C7C;
+   font-family: Roboto;
+   font-size: 0.9rem;
+}
+.inside p{
+   margin: 0;
+}
+.inside span{
+   color: #72DB73;
+}
+.inside h2{
+   font-family: 'Single Day', cursive;
+   color: #72DB73;
+   font-size: 4rem;
+   font-weight: 200;
+   letter-spacing: 0.1rem;
+   margin: 0;
+}
+
+@media only screen and (max-width: 800px) {
+   .half{
+      width: 0;
+      height: 0;
+   }
+   .form{
+      width: 100%;
+   }
+   .inside{
+      width: 60%;
+      font-size: 0.8rem;
+   }
+}

@@ -1,0 +1,26 @@
+.body{
+   height: 5vh;
+   width: 6vw;
+   background-color: #085c00;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0rem 1rem;
+   border-radius: 25px;
+}
+.body p{
+   font-family: 'Roboto';
+   color: aliceblue;
+   margin: 0;
+   padding: 0;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+span{
+   cursor: pointer;
+}
